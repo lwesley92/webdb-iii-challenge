@@ -1,0 +1,17 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "main": "index.js", 
+  "script": { 
+    "start": "node index.js", 
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/lwesley92/webdb-iii-challenge.git",
+  "author": "Latwan Wesley <wesleylatwan22@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.5",
+    "sqlite": "^3.0.3"
+  }
+}
